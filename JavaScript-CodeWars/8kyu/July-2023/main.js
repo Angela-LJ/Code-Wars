@@ -89,3 +89,15 @@ function basicOp(operation, value1, value2)
   else
     return value1/value2
 }
+
+
+//remove the starting and last letter from a string
+function removeChar(str){
+
+
+  let arr= str.split('')
+  return arr.slice(1,arr.length-1).join('')
+
+};
+
+
