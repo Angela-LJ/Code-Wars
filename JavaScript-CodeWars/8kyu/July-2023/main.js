@@ -1,4 +1,4 @@
-//This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+//Multiply a given number by eight if it is an even number and by nine otherwise.
 
 function simpleMulti(number) {
     let sum = number%2
@@ -73,3 +73,19 @@ console.log(number1); // Should show 3
 console.log(number2); // Should show 5
 
 
+//basic math operations
+
+function basicOp(operation, value1, value2)
+{
+  if (operation==='+'){
+    return value1 += value2
+  }
+  else if (operation==='-'){
+    return value1 -= value2
+  }
+  else if (operation==='*'){
+    return value1 * value2
+  }
+  else
+    return value1/value2
+}
